@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "evolve-neo-studio-workspace",
+  "compatibility_date": "2026-11-25",
+  "pages_build_output_dir": ".",
+  // Optional: Enable D1 & R2 when adding a server-side API worker
+  // "d1_databases": [
+  //   { "binding": "DB", "database_name": "evolve-neo-db", "database_id": "REPLACE_WITH_YOUR_D1_ID" }
+  // ],
+  // "r2_buckets": [
+  //   { "binding": "CONTRACTS_BUCKET", "bucket_name": "evolve-neo-contracts" }
+  // ]
+}
